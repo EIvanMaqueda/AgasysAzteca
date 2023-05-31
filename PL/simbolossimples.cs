@@ -27,6 +27,8 @@ namespace PL
                     {
                         if (ascii[cont] == y)
                         {
+                            if(x+1 < ascii.Length-1)
+                            
                             if (ascii[x - 1] == 43)
                             {
                                 respuesta = "verdadera";

@@ -19,6 +19,9 @@ namespace PL
             }
             Array.Sort(caracteres);
             Array.Reverse(caracteres);
+            
+            
+
             for (int i = 0; i < caracteres.Length; i++)
             {
                 if (cadena[i].Length == caracteres[0])
